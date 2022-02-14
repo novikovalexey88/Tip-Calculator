@@ -1,4 +1,4 @@
-//
+ //
 //  Tip_CalculatorApp.swift
 //  Tip Calculator
 //
@@ -11,7 +11,7 @@ import SwiftUI
 struct Tip_CalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ContenViewModel())
         }
     }
 }

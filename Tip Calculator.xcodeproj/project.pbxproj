@@ -13,6 +13,8 @@
 		81FF8D7A27BA561F00470739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FF8D7927BA561F00470739 /* Preview Assets.xcassets */; };
 		81FF8D8527BA562000470739 /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8D8427BA562000470739 /* Tip_CalculatorTests.swift */; };
 		81FF8D9027BA562000470739 /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8D8F27BA562000470739 /* Tip_CalculatorUITests.swift */; };
+		81FF8DA127BA56C400470739 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8DA027BA56C400470739 /* ContentViewModel.swift */; };
+		81FF8DA727BA6C8600470739 /* CurencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8DA627BA6C8600470739 /* CurencyField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		81FF8D8B27BA562000470739 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FF8D8F27BA562000470739 /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		81FF8D9127BA562000470739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FF8DA027BA56C400470739 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		81FF8DA627BA6C8600470739 /* CurencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurencyField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				81FF8D7227BA561D00470739 /* Tip_CalculatorApp.swift */,
 				81FF8D7427BA561D00470739 /* ContentView.swift */,
+				81FF8DA027BA56C400470739 /* ContentViewModel.swift */,
+				81FF8DA527BA6C6500470739 /* component */,
 				81FF8D7627BA561F00470739 /* Assets.xcassets */,
 				81FF8D7B27BA561F00470739 /* Info.plist */,
 				81FF8D7827BA561F00470739 /* Preview Content */,
@@ -128,6 +134,14 @@
 				81FF8D9127BA562000470739 /* Info.plist */,
 			);
 			path = "Tip CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		81FF8DA527BA6C6500470739 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				81FF8DA627BA6C8600470739 /* CurencyField.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 			files = (
 				81FF8D7527BA561D00470739 /* ContentView.swift in Sources */,
 				81FF8D7327BA561D00470739 /* Tip_CalculatorApp.swift in Sources */,
+				81FF8DA727BA6C8600470739 /* CurencyField.swift in Sources */,
+				81FF8DA127BA56C400470739 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
