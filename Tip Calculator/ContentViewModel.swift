@@ -21,7 +21,7 @@ class ContenViewModel: ObservableObject {
         @Published var guests = 2
         @Published var selectedTipIndex = 0
     
-    let tipPercentages = [15, 20, 25]
+    let tipPercentages = [10, 20, 25]
     
     private var cancellable: Set<AnyCancellable> = []
     
